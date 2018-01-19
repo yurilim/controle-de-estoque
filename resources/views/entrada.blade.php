@@ -37,7 +37,7 @@
 
 		<div class="input-field col s5 offset-s2">
 			<select name="selecao3">
-				<option value="" disabled selected>Horizon Comunicação e Interatidade</option>
+				<option value="" disabled selected>Obter Local do banco</option>
 			</select>
 			<label>Local</label>
 		</div>
