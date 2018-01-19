@@ -1,0 +1,366 @@
+/* 
+Itens de estilização:
+
+1- Página principal {}
+2- Página Painel{}
+3- Página Entrada{}
+4- Manutencão{}
+5- Página Movimentação{}
+6- Página Relatórios{}
+7- Página Configuração{}
+
+*/
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ESTILO PÁGINA LOGIN E HOME */
+
+.logo {
+    margin-left: 30px;
+    margin-top: 15px;
+    height: 80px;
+}
+
+.bgpage{
+    /* height: 100vh; */
+    background-position: center;
+    background: url("../imgs/umaImg") no-repeat;
+    /* background-size: cover; */
+    margin-left: 20%;
+    width: 100%;
+    height: 100%;
+}
+
+/* FIM ESTILO PÁGINA LOGIN E HOME */
+
+
+/* CLASSES UTILIZADAS PARA O HTML DAS PAGINAS HREF */
+.paleta-titulo {
+    background-color: #E6E1E1;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    /* padding: 0 0 1% 0; */
+    width: 82vw;
+    height: 30%;
+}
+
+.titulo-sistema {
+    color: rgb(224, 224, 224);
+    font-size: 20px;
+    /* margin-left: 30%; */
+}
+
+.titulo-sistema p:first-child {
+    margin: 0;
+    padding: 30px;
+}
+
+.titulo-interno {
+    font-size: 18px;
+    /* margin-top: 3%; */
+    padding-left: 3%;
+    padding-top: 1%;
+}
+
+.campos-inputs {
+    margin-left: 0% !important;
+    margin-top: 5% !important;
+}
+
+.entrada-page {
+    font-size: 12px;
+    margin-left: 10%;
+}
+
+.colunas-margem{
+    margin-bottom: 2% !important;
+}
+
+
+
+/* ESTILO PÁGINA HOME */
+.paleta_horizontal {
+    width: 100%;
+    height: 120px !important;
+}
+
+.paleta_vertical {
+    top: 100px !important;
+}
+
+.conteudo {
+    width: 85vw;
+    height: 84vh;
+    display: inline-block;
+    background-color: #EFF3DB;
+    vertical-align: top;
+}
+
+.menu-custom {
+    padding-top: 12px;
+}
+
+.menu-custom li {
+    font-size: 18px;
+    padding: 7px;
+    width: 100%;
+    margin-top: 5px;
+    box-sizing: border-box;
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.menu-custom li:hover {
+    background-color: rgb(255, 251, 139);
+}
+
+span {
+    color: rgb(224, 224, 224);
+    font-size: 18px;
+}
+
+/* FIM ESTILO PÁGINA HOME */
+
+/* ESTILO PÁGINA LOGIN */
+
+.bgLogin {
+    height: 100vh;
+    background: url("../imgs/digit.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.bgLogin1{
+    height: 100vh;
+    background: url("../imgs/digit.jpg") no-repeat;
+    background-size: cover;
+    
+}
+
+.bgLoginContainer {
+    width: 30%;
+    height: 50%;
+    background-color: #080808a9;
+    margin-left: 33%;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+
+.btnlogin {
+    width: 84% !important;
+    margin-top: 10% !important;
+}
+
+.positionLogin {
+    justify-content: center;
+    box-sizing: border-box;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+
+.alinharLogin {
+    padding-top: 3%;
+    padding-bottom: 2%;
+    width: 30%;
+}
+
+.linkurl {
+    color: #9e9e9e;
+}
+
+.sair {
+    padding-top: 30px !important;
+    font-size: 17px !important;
+}
+
+.sair-span {
+    color: #ece46d !important;
+}
+
+.sair-suspensao {
+    background-color: #fffbfb00 !important;
+    left: 96% !important;
+}
+
+.dropdown-content li:hover {
+    background: #fffbfb00 !important;
+}
+
+/* FIM ESTILO PÁGINA LOGIN */
+
+
+/* ESTILO PÁGINA NOVO REGISTRO */
+
+.bgRegistro {
+    height: 100vh;
+    background: url("../imgs/digit.jpg") no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.bgRegistro2 {
+    width: 30%;
+    height: 60%;
+    background-color: #080808a9;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+
+.titulo-registro {
+    padding-top: 3%;
+    padding-left: 40%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    color:#9e9e9e;
+}
+
+.registro {
+    justify-content: center;
+    box-sizing: border-box;
+    padding-left: 15%;
+}
+
+.btnregistrar {
+    width: 84% !important;
+}
+
+
+/* FIM ESTILO PÁGINA NOVO REGISTRO */
+
+
+/* ESTILO PÁGINA RECUPERAR SENHA */
+
+.titulo-senha {
+    padding-top: 5%;
+    padding-left: 35%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    color:#9e9e9e;
+}
+
+.bgsenha {
+    width: 30%;
+    height: 50%;
+    background-color: #080808a9;
+    margin-left: 33%;
+    margin-top: 2%;
+}
+
+.btnresetar {
+    width: 84% !important;
+    margin-top: 7% !important;
+}
+
+
+/* FIM ESTILO PÁGINA RECUPERAR SENHA */
+
+
+/* ESTILO PÁGINA LOGIN, NOVO REGISTRO E NOVA SENHA */
+
+.linkvoltar {
+    color: #f8f402 !important;
+}
+
+.centerlogo {
+    margin-left: 42%;
+    margin-top: 2%;
+    height: 9%;
+}
+
+.inputs:focus{
+    border-bottom: 1px solid #f8f402 !important;
+    box-shadow: 0 1px 0 0 #f8f402 !important;
+}
+
+
+/* FIM PÁGINA NOVO REGISTRO E NOVA SENHA */
+
+
+.btn-adicionar{
+    /* margin-left: 18%; */
+    margin-top: 2%;
+}
+
+.btn-confirmar{
+    margin-left: 40%
+    
+}
+
+.form-back{
+    background-color: #E6E1E1;
+    padding: 0 0 1% 0;
+    width: 60%;
+    height: 30%;
+}
+
+
+
+/* ESTILO REFERENTE AO ITEM 7 */
+
+/* Classes insternas do materialize */
+.tabs .tab a{
+    color: #afb4b0 !important;
+}
+
+.tabs .tab a.active{
+    color: #0e0101 !important;
+}
+
+.tabs .indicator{
+    background-color: #e9e06c!important;
+}
+/* Classes insternas do materialize */
+
+.span-custom {
+    color: rgb(252, 248, 248);
+    font-size: 14px;
+}
+
+.paleta-visual{
+    margin-top: 4%;
+    margin-left: 17%;
+}
+
+.paleta-visual .teste-visual {
+    background-color: #E6E1E1;
+    /* margin-bottom: 4%; */
+    /* padding: 0 0 1% 0; */
+    width: 95%;
+    height: 30%;
+}
+
+.modify-row{
+    margin-top: 3% !important;
+}   
+
+
+.btn-entrar{
+    margin-left: 55%;
+}
+
+
+.cor-fonte{
+   color: yellow;
+}
+
+
+.teste{
+    margin-top: 3% !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
